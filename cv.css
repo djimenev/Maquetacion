@@ -1,0 +1,62 @@
+.titulo{
+    border-bottom: 1px solid grey;
+    text-align: center;
+}
+.nombreyapellidos{
+    font-family: Georgia, 'Times New Roman', Times, serif;
+    font-size: 32;
+}
+.contactoyemail{
+font-family: 'Times New Roman', Times, serif;
+font-size: 1;
+color: grey;
+}
+.direccion{
+    color: green;
+    font-size: 5
+    ;
+}
+.presentacion{
+    font-family: Georgia, 'Times New Roman', Times, serif;
+    text-align:justify;
+    margin-left: 130px;
+    margin-right: 160px;
+    color: grey;
+}
+.tituloexperiencia{
+    margin-left: 130px;
+    margin-top: 40px;
+    font-family: Georgia, 'Times New Roman', Times, serif;
+    font-weight: bold;
+    font-size: 10;
+}
+.experiencialaboral{
+    margin-left: 130px;
+}
+.fechastrabajo{
+    font-family:Georgia, 'Times New Roman', Times, serif ;
+    color: grey;
+    font-weight: bold;
+    margin-bottom: 0%;
+
+}
+.puestotrabajo{
+    font-family: Georgia, 'Times New Roman', Times, serif;
+    color: green;
+}
+.descripcionpuesto{
+    font-family: Georgia, 'Times New Roman', Times, serif;
+    color: grey;
+    margin-right: 160px;
+    text-align: justify;
+}
+.experiencialaboral{
+    border-left: 3px grey dashed;
+    padding-left: 60px;
+}
+.listaaptitudes li{
+    color: grey;
+    font-family: Georgia, 'Times New Roman', Times, serif;
+    text-align: justify;
+    padding: 3px;
+}
