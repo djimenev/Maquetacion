@@ -22,6 +22,11 @@ color: grey;
     margin-left: 130px;
     margin-right: 160px;
     color: grey;
+    display: flex;
+    
+}
+.cuerpopresentacion{
+    margin-left: 70px;
 }
 .tituloexperiencia{
     margin-left: 130px;
@@ -59,4 +64,11 @@ color: grey;
     font-family: Georgia, 'Times New Roman', Times, serif;
     text-align: justify;
     padding: 3px;
+}
+img{
+    width: 150px;
+    margin-top: 10px;
+   border-radius: 60px;
+   border: grey solid 2px;
+   
 }
