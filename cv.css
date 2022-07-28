@@ -63,7 +63,7 @@ color: grey;
     color: grey;
     font-family: Georgia, 'Times New Roman', Times, serif;
     text-align: justify;
-    padding: 3px;
+    /* padding: 3px; */
 }
 img{
     width: 150px;
@@ -71,4 +71,7 @@ img{
    border-radius: 60px;
    border: grey solid 2px;
    
+}
+#redessociales{
+    margin-top: 5%;
 }

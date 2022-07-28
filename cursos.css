@@ -1,0 +1,133 @@
+*{
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+}
+
+
+
+.fondo{
+    background-image: url(fotosreto4/fondopantalla2.avif);
+    background-size: cover;
+    
+}
+
+.cabecera{
+    
+    
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+
+}
+.header1{
+width: 50%;
+
+}
+.header2{
+width: 50%;
+}
+
+.menu{
+    margin-top: 1%;
+    font-family:'Poppins';
+    text-decoration: none;
+    box-shadow: none;
+    color: grey;
+    list-style: none;
+    display: flex;
+    gap: 15%;
+    
+}
+.menu li a{
+    text-decoration: none;
+    box-shadow: none;
+    color: white;
+   
+}
+.logo{
+    font-family:'Poppins';
+    color: white;
+    font-size: 30px;
+    padding-left: 16%;
+    font-weight: bold;
+}
+.contenedorpadre{
+    display: flex;
+    flex-direction: row;
+
+}
+.curso1{
+    height: 35vw;
+    width: 50%;
+    
+    display: flex;
+    flex-direction: row;
+    justify-content:center;
+    align-items:center;
+   
+   
+}
+.cuadroblancoinfo{
+ 
+    width: 40%;
+    background-color: white;
+    text-align: center;
+    font-family:'Poppins';
+    color: black;
+    height: 23vh;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    margin-right: 7px;
+    margin-left: 7px;
+    
+}
+.curso1-2{
+    
+    display: flex;
+    flex-direction: column;
+    width: 80%;
+    margin-left: 10px;
+    
+    
+}
+.curso2{
+    height: 35vw;
+    width: 50%;
+    
+}
+.titulocurso{
+    font-family:'Poppins';
+    color: white;
+    margin-bottom: 5vh;
+    font-size:4vh;
+    text-align: justify;
+}
+.resumencurso{
+    font-family:'Poppins';
+    color: white;
+    margin-top: -35px;
+  
+}
+
+.footer{
+    background-color: black;
+   height: 20%;
+   width: 100%;
+   text-align: center;
+   color: white;
+   font-family:'Poppins';
+   padding: 2px;
+    
+}
+.contenedorfooter{
+    display: flex;
+    flex-direction: row;
+    align-items: flex-end;
+  
+    height: 39vh;
+}
+#redessociales{
+    margin-top: 0.5%;
+}
