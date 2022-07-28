@@ -55,12 +55,14 @@ width: 50%;
 .contenedorpadre{
     display: flex;
     flex-direction: row;
+    justify-content: center;
+    gap: 20px;
 
 }
 .curso1{
     height: 29vw;
-    width: 50%;
-    
+    width: 40%;
+    border: 2px red solid;
     display: flex;
     flex-direction: row;
     justify-content:center;
@@ -91,10 +93,12 @@ width: 50%;
     margin-left: 10px;
     
     
+    
 }
 .curso2{
+   
     height: 35vw;
-    width: 50%;
+    width: 40%;
     
 }
 .titulocurso{
@@ -102,7 +106,7 @@ width: 50%;
     color: white;
     margin-bottom: 5vh;
     font-size:4vh;
-    text-align: justify;
+   
 }
 .resumencurso{
     font-family:'Poppins';

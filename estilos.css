@@ -1,3 +1,7 @@
+*{
+    font-family: Arial, Helvetica, sans-serif;
+    font-weight: lighter;
+}
 body{
     background-color: white;
     border: grey 15px solid ;
@@ -9,12 +13,10 @@ body{
 }
 
 #cabecera1{
-    
-   
     border: forestgreen 5px solid;
     border-radius: 10px;
     height: 120px;
-    margin: 1px 1px 1px 1px;
+    margin: 1px 1px 1px 1px; 
 
 }
 #cabecera2{
@@ -22,6 +24,9 @@ body{
     border-radius: 10px;
     height: 60px;
     margin: 1px 1px 1px 1px;
+    display: flex;
+    justify-content: flex-start;
+    
 }
 #navegador{
     border: burlywood 5px solid;
@@ -33,7 +38,7 @@ body{
     border-radius: 10px;
     width: 70%;
     margin: 1px 1px 1px 1px;
-   
+    height: 65vh;
 }
 #conjuntodeasides{
     
@@ -42,13 +47,9 @@ body{
     flex-direction: column;
     justify-content:space-evenly;   
     width: 29%; 
-    height: 420px;
+    height: 65vh;
     margin: 1px 1px 1px 1px;
     display: flex;
-
-    
-   
-    
 }
 #aside1{
     border: lightblue 5px solid;
@@ -63,11 +64,7 @@ body{
     height: 50%;
     margin: 1px 1px 1px 1px;
 }
-#footer2{
-    border: yellow 5px solid;
-    clear: both;
-    
-}
+
 #footer1{
     border: yellow 5px solid;
     clear: both;
@@ -75,22 +72,27 @@ body{
     border-radius: 10px;
    
 }
-
-#section2{
-    border: purple 5px solid;
-    margin: 1px 1px 1px 1px;
-    border-radius: 10px;
-    
-   
-
-}
 #section1{
     border: purple 5px solid;
     border-radius: 10px;
-    margin-top: 110px;
+  
     margin-left: 1px;
     margin-right: 1px;
     margin-bottom: 1px;
+    
+}
+#section2{
+    border: purple 5px solid;
+    margin: 1px 1px 1px 1px;
+    border-radius: 10px;  
+}
+
+.padresection-footer{
+    display: flex;
+    flex-direction: column;
+    justify-content: end;
+  
+   height: 78%
     
 }
 #footer2{
