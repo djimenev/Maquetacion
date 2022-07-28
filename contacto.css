@@ -10,8 +10,8 @@
     background-image: url(fotosreto4/fondopantalla2.avif);
     background-size: cover;
     
+    
 }
-
 .cabecera{
     
     
@@ -53,64 +53,61 @@ width: 50%;
     font-weight: bold;
 }
 .contenedorpadre{
+    
+    height: 55vh;
+    width: 100%;
     display: flex;
-    flex-direction: row;
+    flex-direction:row;
+    justify-content: center;
+    align-items: center;
 
 }
-.curso1{
-    height: 29vw;
+.hijo1{
+  
     width: 50%;
-    
-    display: flex;
-    flex-direction: row;
-    justify-content:center;
-    align-items:center;
-   
-   
-}
-.cuadroblancoinfo{
- 
-    width: 40%;
-    background-color: white;
-    text-align: center;
-    font-family:'Poppins';
-    color: black;
-    height: 23vh;
+    height: 30vh;
     display: flex;
     flex-direction: column;
-    justify-content: center;
-    margin-right: 27px;
-    margin-left: 27px;
-    
+    justify-content:flex-start;
+    align-items:center
+
 }
-.curso1-2{
-    
-    display: flex;
-    flex-direction: column;
-    width: 80%;
-    margin-left: 10px;
-    
-    
-}
-.curso2{
-    height: 35vw;
-    width: 50%;
-    
-}
-.titulocurso{
+.tituloformulario{
     font-family:'Poppins';
     color: white;
     margin-bottom: 5vh;
     font-size:4vh;
     text-align: justify;
 }
-.resumencurso{
+.subtituloformulario{
     font-family:'Poppins';
     color: white;
-    margin-top: -35px;
-  
+    text-align: justify;
+    margin-top: -5vh;
 }
+.formulario{
+    width: 400px;
+    padding: 30px;
+    margin-top: 35px;
+    font-family:'Poppins';
+    list-style: none;
 
+}
+.controls{
+    width: 100%;
+    padding: 10px;
+    border-radius: 4px;
+    margin-bottom: 10px;
+    font-family:'Poppins';
+}
+.boton{
+    width: 40%;
+    border: none;
+    padding: 12px;
+    color: black;
+    font-family:'Poppins';
+    
+}
 .footer{
     background-color: black;
    height: 20%;
